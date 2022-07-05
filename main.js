@@ -1,15 +1,15 @@
-canvas = document.getElementById('pintura');
+canvas = document.getElementById("pintura");
 ctx = canvas.getContext("2d");
-var carroAltura = 75;
-var carroLargura = 100;
+var carroAltura = 115;
+var carroLargura = 65;
 var carroX = 5;
 var carroY = 225;
 backgroundImage = "parkingLot.jpg";
-greencarImage = "car2.png";
+carro_image = "car2.png";
 function add() {
 	background_imgTag = new Image();
 	background_imgTag.onload = uploadBackground;
-	background_imgTag.src = background_image;
+	background_imgTag.src = backgroundImage
 	carro_imgTag = new Image();
 	carro_imgTag.onload = uploadCarro;
 	carro_imgTag.src = carro_image;
