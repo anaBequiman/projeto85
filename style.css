@@ -1,9 +1,9 @@
 body{
-    background-image: url("concrete-road.jpg");
+    background-image: url("fundoAsfalto.jpg");
     background-position: center;
     background-size: cover;
 }
-#myCanvas{
+#pintura{
     margin-top: 30px;
     border-width:10px;
     background-color: white; 
